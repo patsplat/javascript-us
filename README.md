@@ -62,7 +62,6 @@ List of all (actual) states:
         ... },
       { name: 'Alaska',
         ... }, ...
-    >>> us.states.TERRITORIES
     > us.TERRITORIES
     [ { name: 'American Samoa',
         ... },
