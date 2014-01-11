@@ -2,7 +2,7 @@
   "name": "us",
   "description": "A package for easily working with US and state metadata",
   "author": "Patrick Way <patrick@hexane.org>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "us.js",
   "engines": {
     "node": ">= 0.4.1"

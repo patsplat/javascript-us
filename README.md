@@ -19,16 +19,13 @@ Installation
 
 As per usual:
 
-    npm install us
-
+    $ npm install us
 
 Features
 --------
 
 Easy access to state information:
 
-    $ npm install us
-    $ node
     > var us = require('us')
     > us.states.MD
     { name: 'Maryland',
