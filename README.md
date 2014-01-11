@@ -1,7 +1,7 @@
 javascript-us
 =============
 
-NPM module of US state metadata.  Based on [python-us](https://github.com/unitedstates/python-us)
+NPM module of US state metadata.  Heavily based on [python-us](https://github.com/unitedstates/python-us)
 
 * all US states and territories
 * postal abbreviations
@@ -17,7 +17,7 @@ NPM module of US state metadata.  Based on [python-us](https://github.com/united
 Installation
 ------------
 
-As per usual: ::
+As per usual:
 
     npm install us
 
@@ -25,10 +25,9 @@ As per usual: ::
 Features
 --------
 
-Easy access to state information: ::
+Easy access to state information:
 
     > var us = require('./us.js')
-    undefined
     > us.states.MD
     { name: 'Maryland',
       name_metaphone: 'MRLNT',
@@ -46,7 +45,7 @@ Easy access to state information: ::
     'Maryland'
     > 
 
-Includes territories too: ::
+Includes territories too:
 
     > us.states.VI.name
     'Virgin Islands'
@@ -56,7 +55,7 @@ Includes territories too: ::
     false
     > 
 
-List of all (actual) states: ::
+List of all (actual) states:
 
     > us.STATES
     [ { name: 'Alabama',
@@ -70,7 +69,7 @@ List of all (actual) states: ::
       { name: 'Guam',
         ... }, ...
 
-And the whole shebang, if you want it: ::
+And the whole shebang, if you want it:
 
     > us.STATES_AND_TERRITORIES
     [ { name: 'Alabama',
@@ -80,7 +79,7 @@ And the whole shebang, if you want it: ::
       { name: 'American Samoa',
         ... }, ...
 
-The lookup method allows matching by FIPS code, abbreviation, and name: ::
+The lookup method allows matching by FIPS code, abbreviation, and name:
 
     > us.lookup('24')
     { name: 'Maryland',
@@ -109,8 +108,6 @@ Shapefiles
 
 You want shapefiles too? Gotcha covered.
 
-::
-
     > us.states.MD.shapefile_urls()
     { tract: 'http://www2.census.gov/geo/tiger/TIGER2010/TRACT/2010/tl_2010_24_tract10.zip',
       cd: 'http://www2.census.gov/geo/tiger/TIGER2010/CD/111/tl_2010_24_cd111.zip',
@@ -128,7 +125,7 @@ The `shapefile_urls()` method on the State object generates shapefile URLs for t
 * zcta
 * census tract
 
-If you know what region you want, you can explicitly request it: ::
+If you know what region you want, you can explicitly request it:
 
     > us.states.MD.shapefile_urls('county')
     'http://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip'
@@ -137,10 +134,7 @@ If you know what region you want, you can explicitly request it: ::
 Mappings
 --------
 
-Mappings between various state attributes are a common need. The `mapping()`
-method will generate a lookup between two specified fields.
-
-::
+Mappings between various state attributes are a common need. The `mapping()` method will generate a lookup between two specified fields.
 
     > us.mapping('fips', 'abbr');
     { '10': 'DE',
