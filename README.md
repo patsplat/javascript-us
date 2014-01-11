@@ -27,7 +27,9 @@ Features
 
 Easy access to state information:
 
-    > var us = require('./us.js')
+    $ npm install us
+    $ node
+    > var us = require('us')
     > us.states.MD
     { name: 'Maryland',
       name_metaphone: 'MRLNT',
