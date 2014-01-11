@@ -1,7 +1,7 @@
 javascript-us
 =============
 
-NPM module of US state metadata.  Based on https://github.com/unitedstates/python-us
+NPM module of US state metadata.  Based on [python-us](https://github.com/unitedstates/python-us)
 
 * all US states and territories
 * postal abbreviations
@@ -158,8 +158,10 @@ Your contributions are welcomed!
 Credits
 -------
 
-* Based off python-us https://github.com/unitedstates/python-us
-* Ported by `Patrick Way <https://github.com/patsplat>`_
-* python-us includes contributions from:
-** `Paul Tagliamonte <http://github.com/paultag>`_
-** `Jeremy Carbaugh <http://github.com/jcarbaugh>`_
+* Documentation, code, and pretty much everything heavily based off [python-us](https://github.com/unitedstates/python-us)
+* Ported to javascript by [Patrick Way](https://github.com/patsplat)
+
+Contributors to python-us:
+
+* [Paul Tagliamonte](http://github.com/paultag)
+* [Jeremy Carbaugh](http://github.com/jcarbaugh)
