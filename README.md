@@ -150,6 +150,12 @@ Your contributions are welcomed!
 Credits
 -------
 
+Contributors to javascript-us:
+
+* [Patrick Way](https://github.com/patsplat)
+* [rab](https://github.com/rab1)
+
+
 * Documentation, code, and pretty much everything heavily based off [python-us](https://github.com/unitedstates/python-us)
 * Ported to javascript by [Patrick Way](https://github.com/patsplat)
 * Contains [metaphone.js](https://github.com/kvz/phpjs/blob/master/functions/strings/metaphone.js) from [phpjs](https://github.com/kvz/phpjs)
