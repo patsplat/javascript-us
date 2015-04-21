@@ -145,7 +145,7 @@ Mappings between various state attributes are a common need. The `mapping()` met
 Contributing
 ------------
 
-Your contributions are welcomed!
+Please fork on github and send a pull request.  Your contributions are welcomed!
 
 Credits
 -------
