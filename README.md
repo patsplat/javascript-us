@@ -155,10 +155,8 @@ Credits
 
 Contributors to javascript-us:
 
-* [Patrick Way](https://github.com/patsplat)
-  *  Ported to javascript
-* [rab](https://github.com/rab1)
-  * AMD module compatibility
+* [Patrick Way](https://github.com/patsplat) ported to javascript
+* [rab](https://github.com/rab1) added AMD module compatibility
 
 Contributors to python-us:
 
