@@ -2,7 +2,11 @@
   "name": "us",
   "description": "A package for easily working with US and state metadata",
   "author": "Patrick Way <patrick@hexane.org>",
-  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patsplat/javascript-us.git"
+  },
+  "version": "1.1.1",
   "main": "us.js",
   "engines": {
     "node": ">= 0.4.1"
