@@ -29,7 +29,7 @@ Easy access to state information:
     > var us = require('us')
     > us.states.MD
     { name: 'Maryland',
-      name_metaphone: 'MRLNT',
+      metaphones: [ 'MRLNT' ],
       statehood_year: 1788,
       ap_abbr: 'Md.',
       is_territory: false,
@@ -42,7 +42,7 @@ Easy access to state information:
     '24'
     > us.states.MD.name
     'Maryland'
-    > 
+    >
 
 Includes territories too:
 
@@ -52,7 +52,7 @@ Includes territories too:
     true
     > us.states.MD.is_territory
     false
-    > 
+    >
 
 List of all (actual) states:
 
@@ -91,7 +91,7 @@ The lookup method allows matching by FIPS code, abbreviation, and name:
     > us.lookup('maryland')
     { name: 'Maryland',
       ... }
-    > 
+    >
 
 And for those days that you just can't remember how to spell Mississippi,
 we've got phonetic name matching too: ::
@@ -127,7 +127,7 @@ If you know what region you want, you can explicitly request it:
 
     > us.states.MD.shapefile_urls('county')
     'http://www2.census.gov/geo/tiger/TIGER2010/COUNTY/2010/tl_2010_24_county10.zip'
-    
+
 
 Mappings
 --------

@@ -8,7 +8,39 @@
   },
   "version": "1.1.1",
   "main": "us.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
   "engines": {
     "node": ">= 0.4.1"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "jshintConfig": {
+    "globals": {
+      "define": false
+    },
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "esnext": true,
+    "forin": true,
+    "freeze": true,
+    "futurehostile": true,
+    "latedef": "nofunc",
+    "maxdepth": 3,
+    "maxparams": 4,
+    "maxstatements": 30,
+    "noarg": true,
+    "nocomma": true,
+    "node": true,
+    "nonbsp": true,
+    "nonew": true,
+    "singleGroups": false,
+    "strict": "global",
+    "undef": true,
+    "unused": true
   }
 }
