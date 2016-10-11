@@ -155,6 +155,7 @@ Credits
 
 Contributors to javascript-us:
 
+* [Andy Burke](https://github.com/andyburke) added testing and support for common miss-spellings
 * [Patrick Way](https://github.com/patsplat) ported to javascript
 * [rab](https://github.com/rab1) added AMD module compatibility
 
